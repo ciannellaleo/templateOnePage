@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curso Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">Gamedev</a>
+                </div>
+                <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#servicos">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#quemsomos">Quem somos</a>
+                        </li>
+                        <li>
+                            <a href="#localizacao">Localização</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="divslider">
+        <div class="row linhaCarousel">
+            <div class="col-xs-12 colunaPrincipal">
+                <div id="sliderprincipal" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#sliderprincipal" data-slide-to="0" class="active"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="img-responsive" src="img/baldurs1.jpg" alt="Imagem Slider 1">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/baldurs2.jpg" alt="Imagem Slider 2">
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="servicos">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Nossos Jogos <small>Conheça o que fazemos</small></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <div>
+                        <img src="img/imagem01.jpg" class="img-responsive img-rounded center-block" alt="">
+                        <h4>Jogo X</h4>
+                        <p>A descrição deve ser colocada nessa área.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <div>
+                        <img src="img/imagem01.jpg" class="img-responsive img-rounded center-block" alt="">
+                        <h4>Jogo X</h4>
+                        <p>A descrição deve ser colocada nessa área.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <div>
+                        <img src="img/imagem01.jpg" class="img-responsive img-rounded center-block" alt="">
+                        <h4>Jogo X</h4>
+                        <p>A descrição deve ser colocada nessa área.</p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="col-xs-12 text-center">
+                        <a href="#" class="btn btn-default btn-lg btnMaisJogos">Veja todos os jogos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolioStyle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Screenshots <small>Conheça nossos trabalhos</small></h1>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <img src="img/imagem02.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <img src="img/imagem02.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <img src="img/imagem02.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <img src="img/imagem02.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <img src="img/imagem02.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-4 col-md-4 servicos-item">
+                    <img src="img/imagem02.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-xs-12 text-center">
+                <a href="#" class="btn btn-default btn-lg btnMaisJogos">Veja todos os jogos</a>
+            </div>
+        </div>
+    </section>
+    <section id="quemsomos">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>Quem somos <small>Conheça nossa história</small></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-8 text-right">
+                        <h4>Texto sobre a empresa</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt ipsum nec odio iaculis
+                            vulputate. Nulla in nunc mauris. Etiam dignissim nec enim nec sagittis. Nunc tincidunt
+                            ligula lacus, a fermentum massa tincidunt quis. Curabitur malesuada, purus sit amet
+                            porttitor lacinia, sapien turpis congue turpis, sed ullamcorper dolor elit nec purus. Proin
+                            nec efficitur quam. Donec commodo eleifend aliquam. Vivamus vehicula est eget sagittis
+                            suscipit. Sed sed tortor eu risus viverra ultrices. Pellentesque ac eros cursus elit
+                            accumsan consectetur at at enim. Praesent felis felis, dictum ac nulla at, iaculis tincidunt
+                            magna. Nunc dignissim erat sapien, vitae malesuada nulla faucibus et.</p>
+                    </div>
+                    <div class="col-md-4 cardQuemSomos">
+                        <img src="img/imagem01.jpg" class="img-responsive img-circle" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 cardQuemSomos">
+                    <div class="col-md-4 float-right">
+                        <img src="img/imagem01.jpg" alt="" class="img-responsive img-circle">
+                    </div>
+                    <div class="col-md-8 text-left">
+                        <h4>Missão</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt ipsum nec odio iaculis
+                            vulputate. Nulla in nunc mauris. Etiam dignissim nec enim nec sagittis. Nunc tincidunt
+                            ligula lacus, a fermentum massa tincidunt quis. Curabitur malesuada, purus sit amet
+                            porttitor lacinia, sapien turpis congue turpis, sed ullamcorper dolor elit nec purus. Proin
+                            nec efficitur quam. Donec commodo eleifend aliquam. Vivamus vehicula est eget sagittis
+                            suscipit. Sed sed tortor eu risus viverra ultrices. Pellentesque ac eros cursus elit
+                            accumsan consectetur at at enim. Praesent felis felis, dictum ac nulla at, iaculis tincidunt
+                            magna. Nunc dignissim erat sapien, vitae malesuada nulla faucibus et.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="localizacao">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>Localização <small>Veja onde estamos</small></h1>
+                </div>
+            </div>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117471.61778762574!2d-47.0425461358696!3d-23.060899470978065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cd5526347e3d%3A0x68805f81927b32e4!2sVinhedo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1645538329172!5m2!1spt-BR!2sbr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="contato" class="sectionContato">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>Contato <small>Fale conosco agora mesmo</small></h1>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form class="col-xs-12 col-md-6 form-horizontal" id="formContato">
+                            <div class="form-group">
+                                <label for="inputName3" class="col-sm-2 control-label">Nome</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputName3"
+                                        placeholder="Digite seu nome">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3"
+                                        placeholder="Seu melhor email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputTel3" class="col-sm-2 control-label">Celular</label>
+                                <div class="col-sm-10">
+                                    <input type="tel" class="form-control" id="inputTel3"
+                                        placeholder="Qual seu celular?">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div>
+                            <span class="bold">Endereço Gamedev</span>
+                            <p>R. Tal, 123 - Vinhedo, São Paulo</p>
+                            <p>Telefone: (19) 9 9999-9999</p>
+                            <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container divFooter">
+            <h1>Gamedev</h1>
+            <small>Todos os direitos reservados</small>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

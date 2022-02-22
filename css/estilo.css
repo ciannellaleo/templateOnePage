@@ -1,0 +1,80 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    padding-top: 35px;
+}
+.linhaCinza{
+    background: gray;
+}
+
+.divslider{
+    
+    padding-bottom: 15px;
+    background: url();
+}
+
+section{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+}
+
+section.sectionContato{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-height: 65vh;
+}
+
+.servicos-item{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.servicos-item h4{
+    margin-top: 15px;
+}
+
+.servicos-item img{
+    margin:auto;
+}
+
+.colunaPrincipal{
+    padding: 0 !important;
+}
+
+.btnMaisJogos{
+    margin-top: 30px ;
+}
+
+.linhaCarousel{
+    margin: auto !important;
+}
+
+.portfolioStyle{
+    background: #333;
+    color: white;
+}
+
+.cardQuemSomos{
+    margin-top: 20px;
+}
+
+.cardQuemSomos img{
+    margin-top: 20px;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer{
+    background: black;
+    min-height: fit-content;
+    color: #E5E5E5;
+}
+
+.divFooter{
+    padding-bottom: 30px;
+}
